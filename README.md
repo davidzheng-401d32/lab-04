@@ -1,46 +1,19 @@
-# LAB - 
+# LAB - 04
 
-## Project Name
+## Data Modeling 
 
-### Author: Student/Group Name
+### Author: David Zheng 
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/davidzheng-401d32/lab-04/pull/1)
+* [travis](https://www.travis-ci.com/davidzheng-401d32/lab-04)
+* [back-end](https://davidzheng-lab-04.herokuapp.com/) 
 
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* unit test: `npm test`
+* eslint test: `npm run lint`
+* Lab is incomplete; tests need to be added for delete() and update()
 
 #### UML
-Link to an image of the UML for your application and response to events
+![lab-04-uml](lab04-uml.jpg)
