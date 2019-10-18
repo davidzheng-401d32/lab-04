@@ -1,5 +1,6 @@
 'use strict';
 
+
 class Validator {
   /**
    * Is this a string?
@@ -11,7 +12,7 @@ class Validator {
   }
 
   /**
-   * Is this a number?
+   * Is this a number?`
    * @param input
    * @returns {string}
    */

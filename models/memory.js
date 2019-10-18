@@ -2,6 +2,11 @@
 
 const uuid = require('uuid/v4');
 
+const Validator = require('./validator.js');
+
+const validator = new Validator();
+console.log(validator);
+
 
 class Model {
 

@@ -6,7 +6,7 @@ describe('Categories Model', () => {
 
   beforeEach(() => {
     categories = new Categories();
-  })
+  });
 
   // How might we repeat this to check on types?
   it('sanitize() returns undefined with missing requirements', () => {
